@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Debug\CSharpChatClient.exe.config
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Debug\CSharpChatClient.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Debug\CSharpChatClient.pdb
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.g.resources
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.pdb

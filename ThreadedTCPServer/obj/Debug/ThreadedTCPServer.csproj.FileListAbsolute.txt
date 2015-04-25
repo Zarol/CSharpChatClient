@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\bin\Debug\ThreadedTCPServer.exe.config
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\bin\Debug\ThreadedTCPServer.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\bin\Debug\ThreadedTCPServer.pdb
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\obj\Debug\ThreadedTCPServer.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\obj\Debug\ThreadedTCPServer.pdb
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\ThreadedTCPServer\obj\Debug\ThreadedTCPServer.csprojResolveAssemblyReference.cache
