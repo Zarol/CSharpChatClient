@@ -9,6 +9,6 @@
         <TextBox x:Name="txtBoxChat" VerticalAlignment="Center" HorizontalAlignment="Center" 
                  Margin="15,10,15,45" Width="487" Height="265" 
                  BorderThickness="5" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" IsReadOnly="False"
-                 Text="{Binding Mode=TwoWay, Path=ChatLog}"/>
+                 Text="{Binding Mode=TwoWay, Path=ChatLog, UpdateSourceTrigger=PropertyChanged}"/>
     </Grid>
 </Window>

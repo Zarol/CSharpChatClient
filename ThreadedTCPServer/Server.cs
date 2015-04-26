@@ -35,9 +35,13 @@ namespace ThreadedTCPServer
             {
                 //Blocks until a client has connected to the server
                 TcpClient tcpClient = this.tcpListerner.AcceptTcpClient();
+                System.Diagnostics.Debug.WriteLine("[Server] A client has connected.");
 
                 //Store the connected client into an ArrayList
-                userList.Add(tcpClient);
+                lock (userList.SyncRoot)
+                {
+                    userList.Add(tcpClient);
+                }
 
                 //Create a thread to handle communication with connected client
                 Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
@@ -80,8 +84,6 @@ namespace ThreadedTCPServer
                 }
 
                 //Message has been successfully recieved
-                //ASCIIEncoding encoder = new ASCIIEncoding();
-                //System.Diagnostics.Debug.WriteLine(encoder.GetString(message, 0, bytesRead));
                 ASCIIEncoding encoder = new ASCIIEncoding();
                 broadcastMessage(encoder.GetString(message, 0, bytesRead));
             }

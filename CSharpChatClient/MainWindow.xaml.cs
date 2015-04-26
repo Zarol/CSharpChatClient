@@ -29,6 +29,7 @@ namespace CSharpChatClient
         public MainWindow()
         {
             InitializeComponent();
+            txtBoxChat.DataContext = this;
         }
 
         /**
@@ -60,15 +61,13 @@ namespace CSharpChatClient
          */
         private void btnSendMessage_Click(object sender, RoutedEventArgs e)
         {
-            //NetworkStream clientStream = server.GetStream();
+            NetworkStream clientStream = server.GetStream();
 
-            //ASCIIEncoding encoder = new ASCIIEncoding();
-            //byte[] buffer = encoder.GetBytes(txtBoxMessage.Text);
+            ASCIIEncoding encoder = new ASCIIEncoding();
+            byte[] buffer = encoder.GetBytes(txtBoxMessage.Text);
 
-            //clientStream.Write(buffer, 0, buffer.Length);
-            //clientStream.Flush();
-            ChatLog = "Hey, how's it going?/nPretty good, how about yourself?";
-            txtBoxMessage.Text = ChatLog;
+            clientStream.Write(buffer, 0, buffer.Length);
+            clientStream.Flush();
         }
 
         /**
@@ -107,7 +106,7 @@ namespace CSharpChatClient
 
                 //Message has been successfully recieved
                 ASCIIEncoding encoder = new ASCIIEncoding();
-                //broadcastMessage(encoder.GetString(message, 0, bytesRead));
+                ChatLog += encoder.GetString(message, 0, bytesRead) + "\r\n";
             }
 
             tcpClient.Close();

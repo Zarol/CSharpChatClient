@@ -1,0 +1,1 @@
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\2 Clients\CSharpChatClient.exe.config
