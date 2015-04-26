@@ -7,6 +7,9 @@ using System.Collections;
 
 namespace ThreadedTCPServer
 {
+    /// <summary>
+    /// A Threaded TCP Server that stores connected users in an ArrayList.
+    /// </summary>
     class Server
     {
         private TcpListener tcpListerner;
@@ -14,19 +17,23 @@ namespace ThreadedTCPServer
 
         private ArrayList userList;
 
+        /// <summary>
+        /// Main Constructor.
+        /// </summary>
         public Server()
         {
             this.userList = new ArrayList();
+            //Listen for connections on Port 3000 from no specific IP address
             this.tcpListerner = new TcpListener(IPAddress.Any, 3000);
             this.listenThread = new Thread(new ThreadStart(ListenForClients));
             this.listenThread.Start();
         }
 
-        /**
-         * Starts the TcpListener, then sits in a loop accepting connections.
-         * AcceptTcpClient will block until a client has connected, which will then
-         * use a thread to handle communication with the new client.
-         */
+        ///<summary>
+        /// Starts the TcpListener, then sits in a loop accepting connections.
+        /// AcceptTcpClient will block until a client has connected, which will then
+        /// use a thread to handle communication with the new client.
+        /// </summary>
         private void ListenForClients()
         {
             this.tcpListerner.Start();
@@ -49,11 +56,11 @@ namespace ThreadedTCPServer
             }
         }
 
-        /**
-         * Acquire NetworkStream from the TcpClient to read.
-         * Loop reading all the information from the client.
-         * If no bytes have been recieved, the client has disconnected.
-         */
+        ///<summary>
+        /// Acquire NetworkStream from the TcpClient to read.
+        /// Loop reading all the information from the client.
+        /// If no bytes have been recieved, the client has disconnected.
+        /// </summary>
         private void HandleClientComm(object client)
         {
             TcpClient tcpClient = (TcpClient)client;
@@ -90,10 +97,10 @@ namespace ThreadedTCPServer
 
             tcpClient.Close();
         }
-
-        /**
-         * Broadcasts a string to all currently connected clients.
-         */
+        
+        ///<summary>
+        /// Broadcasts a string to all currently connected clients.
+        /// </summary>
         private void broadcastMessage(string message)
         {
             NetworkStream clientStream;
@@ -103,6 +110,7 @@ namespace ThreadedTCPServer
             //Locking the list guarantees the thread safety of the ArrayList
             lock (userList.SyncRoot)
             {
+                //Iterate through each connected user, broadcast the message
                 foreach (TcpClient user in userList)
                 {
                     clientStream = user.GetStream();
