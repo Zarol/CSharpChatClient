@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\
 CSharpChatClient
 none
 false
@@ -12,7 +12,7 @@ DEBUG;TRACE
 C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\App.xaml
 3-1449114689
 
-11473017427
+7-1398376328
 12-1401562060
 ChatRoom.xaml;Login.xaml;MainWindow.xaml;
 

@@ -1,0 +1,30 @@
+﻿<Page x:Class="CSharpChatClient.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="400"
+	Title="Login">
+
+    <Grid>
+        <Label Name="lblUsername" Content="Username:"
+               FontSize="18"
+               HorizontalAlignment="Left" VerticalAlignment="Center"
+               Margin="15,0,0,75"/>
+        <TextBox Name="txtBoxUsername"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 Margin="150,0,15,75"/>
+        <Button Name="btnLogin" Content="Log In"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                Margin="0,0,15,15" Height="25" Width="100"
+                FontWeight="Bold" Click="btnLogin_Click"/>
+        <Label Name="lblIP" Content="IP Address:"
+               HorizontalAlignment="Left" VerticalAlignment="Bottom"
+               Margin="15,0,0,15"/>
+        <TextBox Name="txtBoxIP"
+                 HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                 Margin="85,0,0,15" Width="150"
+                 Text="{Binding Mode=TwoWay, Path=ipAddress, UpdateSourceTrigger=PropertyChanged}"/>
+    </Grid>
+</Page>

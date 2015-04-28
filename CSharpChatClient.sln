@@ -2,9 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpChatClient", "CSharpChatClient\CSharpChatClient.csproj", "{AA867194-15B1-43E6-AF85-EC672EB3D1BB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CB873B71-BD5D-45F4-9F20-80DB7498CD38} = {CB873B71-BD5D-45F4-9F20-80DB7498CD38}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadedTCPServer", "ThreadedTCPServer\ThreadedTCPServer.csproj", "{CB873B71-BD5D-45F4-9F20-80DB7498CD38}"
 EndProject

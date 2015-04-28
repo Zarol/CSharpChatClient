@@ -1,0 +1,30 @@
+﻿<Page x:Class="CSharpChatClient.ChatRoom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="400"
+	Title="ChatRoom">
+
+    <Grid>
+        <!-- Button: Sends the text value of <txtBoxMessage> to the server -->
+        <Button x:Name="btnSendMessage" Content="Send Message"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                Height="25" Width="100" Margin="0,0,15,15" 
+                Click="btnSendMessage_Click"/>
+        <!-- TextBox: The string that will be sent to the server -->
+        <TextBox x:Name="txtBoxMessage" 
+                 VerticalAlignment="Bottom" HorizontalAlignment="Stretch" 
+                 Height="25" Margin="15,0,125,15"/>
+        <!-- TextBox: The log of messages sent over the sever since the client was connected -->
+        <TextBox x:Name="txtBoxChat"
+                 Text="{Binding Mode=TwoWay, Path=ChatLog, UpdateSourceTrigger=PropertyChanged}"
+                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch" 
+                 Margin="15,15,170,45"
+                 BorderThickness="5" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" IsReadOnly="False"/>
+        <ListBox x:Name="listBoxUsers"
+                 VerticalAlignment="Stretch" HorizontalAlignment="Right"
+                 Margin="15,15,15,45" Width="150"/>
+    </Grid>
+</Page>

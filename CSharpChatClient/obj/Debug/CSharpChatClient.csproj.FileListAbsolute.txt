@@ -11,3 +11,7 @@ C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSha
 C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.csproj.GenerateResource.Cache
 C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.exe
 C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\CSharpChatClient.pdb
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\ChatRoom.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\Login.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\ChatRoom.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Debug\Login.g.cs

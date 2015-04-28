@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Client\CSharpChatClient.exe.config
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Client\CSharpChatClient.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\bin\Client\CSharpChatClient.pdb
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\ChatRoom.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\Login.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\ChatRoom.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\Login.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\App.g.cs
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient.g.resources
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient.exe
+C:\Users\Admin\Documents\GitHub\CSharpChatClient\CSharpChatClient\obj\Client\CSharpChatClient.pdb
